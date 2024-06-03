@@ -1,0 +1,4 @@
+
+<button (click)="scaleState.set('scale-up')">scale up</button>
+<button (click)="scaleState.set('scale-down')">scale down</button>
+<h1 [@scale]="scaleState()">Hello World</h1>
